@@ -149,4 +149,24 @@ p {
 
 .hidden {
     display: none;
-}   
+} 
+
+@media (max-width: 600px) {
+    .preview-container {
+        flex-direction: column;
+        min-width: 100%;
+        width: 90%;
+        height: 800px;
+    }
+
+    .preview-img {
+        min-width: 100%;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .preview-text {
+        width: 100%;
+    }
+
+   
+}
